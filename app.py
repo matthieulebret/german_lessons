@@ -1,26 +1,10 @@
 import streamlit as st
-
-import altair as alt
-import plotly.express as px
-import matplotlib.pyplot as plt
-
-from cleantext import clean
-
-import numpy as np
 import pandas as pd
-import datetime
-import xlrd
-
-from datetime import datetime
-from dateutil.relativedelta import relativedelta
-
-import html2text
-
-import json
-import lxml
-
+import numpy as np
+import requests
 from st_aggrid import AgGrid
 
+import altair as alt
 
 st.set_page_config('German classes',layout='wide')
 
