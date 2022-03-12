@@ -10,7 +10,7 @@ st.set_page_config('German classes',layout='wide')
 
 st.title('German language app')
 
-@st.cache(suppress_st_warning=True)
+@st.cache(suppress_st_warning=True,tttl=60)
 def getdata():
     articles = pd.read_excel('german_vocab.xlsx',1,index_col = 0,header=0)
     pronouns = pd.read_excel('german_vocab.xlsx',2,index_col=0,header=0)
